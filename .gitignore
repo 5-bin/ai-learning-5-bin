@@ -1,0 +1,52 @@
+# macOS / Windows 系统文件
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 本地环境变量（保留可共享的示例配置）
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# 编辑器本地配置与临时文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python 构建与测试产物
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+
+# 运行日志
+*.log
+
+# 斗地主脚本生成的手牌和底牌
+/Task 0/**/player[123].txt
+/Task 0/**/others.txt
+
+# 校园游戏的本地存档
+/Task 1/Campus_IF_Love_副本/saves/*.json
